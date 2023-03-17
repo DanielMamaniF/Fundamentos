@@ -1,0 +1,15 @@
+
+int main()
+{
+    int numcoutas;
+    float monto;
+    cout<<"Ingrese el numero de coutas: ";
+    cin>>numcoutas;
+    cout<<"Ingrese el numero de monto: ";
+    cin>>monto;
+    if ((numcoutas>36)||(monto>2000))
+       cout<<"Valores no validos";
+    else
+       cout<<"El monto toal es: " <<numcoutas* monto;
+    return 0;
+}
