@@ -1,0 +1,23 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double parcial1, parcial2, parcial3, examenfinal, notapractica, proyectofinal, notafinal;
+    
+    cout<<"Ingrese nota del primerparcial (0 al 100):" <<endl;
+    cin>>parcial1,
+    cout<<"Ingrese nota del segundoparcial (0 al 100):" <<endl;
+    cin>>parcial2,
+    cout<<"Ingrese nota del tercerparcial  (0 al 100):"<<endl;
+    cin>>parcial3;
+    cout<<"Ingrese nota del examen final (0 al 100):" <<endl;
+    cin>>examenfinal;
+    cout<<"Ingrese nota del proyecto final (0 al 100):" <<endl;
+    cin>>proyectofinal;
+    notafinal=((parcial1+parcial2+parcial3)/3)*0.4+examenfinal*0.40+proyectofinal*0.20;
+    cout<<"La nota final del alumno es: " << notafinal <<endl;
+    return 0;
+}
