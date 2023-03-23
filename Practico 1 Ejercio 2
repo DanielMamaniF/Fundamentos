@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+int main() 
+{
+    double D, R, C, A, V;
+
+    std::cout << "Introduce el valor del diámetro de la esfera: ";
+    std::cin >> D;
+
+    R = D / 2.0;
+    C = 2 * 3,1416 * R;
+    A = 4 * 3,1416 * ^(R, 2);
+    V = (4.0 / 3.0) * 3,1416 * ^(R, 3);
+
+    std::cout << "La circunferencia de la esfera es: " << C << std::endl;
+    std::cout << "El área de la esfera es: " << A << std::endl;
+    std::cout << "El volumen de la esfera es: " << V << std::endl;
+
+    return 0;
+}
